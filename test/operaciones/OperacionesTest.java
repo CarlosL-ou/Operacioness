@@ -103,7 +103,7 @@ public class OperacionesTest {
     /**
      * Test of sumarVector method, of class Operaciones.
      */
-    @Ignore
+    
     @Test
     public void testSumarVector() {
         System.out.println("sumarVector");
