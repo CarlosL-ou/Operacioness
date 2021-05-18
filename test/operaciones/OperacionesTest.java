@@ -54,7 +54,7 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
-    @Ignore
+    
     @Test
     public void testSumarImpar() {
         System.out.println("sumarImpar");
