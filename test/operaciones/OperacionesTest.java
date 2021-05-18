@@ -85,7 +85,7 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
-    @Ignore
+    
     @Test
     public void testIgual() {
         System.out.println("mayorNegativo");
