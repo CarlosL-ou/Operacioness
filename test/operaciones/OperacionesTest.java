@@ -71,7 +71,7 @@ public class OperacionesTest {
     /**
      * Test of mayor method, of class Operaciones.
      */
-    @Ignore
+    
     @Test
     public void testMayor() {
         System.out.println("mayor");
