@@ -7,8 +7,34 @@ package operaciones;
 
 /**
  *
- * @author carlo
+ * @author sonix
  */
 public class Operaciones {
+
+    public int sumarPar(int a, int b) {
+        int resultado = a + b;
+        if(resultado%2==0){
+            return resultado;
+        }else{
+            return resultado+1;
+        }
+    }
+
+    public int mayor(int a, int b) {
+        if(a>b){
+            return a;
+        }else{
+            return a;
+        }
+    }
+
+   
+    public int sumarVector(int [] numeros) {
+        int sum=0;
+        for (int i = 0; i < numeros.length; i++) {
+            sum+=numeros[0];
+        }
+        return sum;
+    }
     
 }
