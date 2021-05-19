@@ -15,7 +15,7 @@ import org.junit.Ignore;
 
 /**
  *
- * @author carlo
+ * @author CarlosL
  */
 public class OperacionesTest {
     
