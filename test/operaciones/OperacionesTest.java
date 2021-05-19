@@ -85,7 +85,19 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
-    
+    @Test
+    public void testMayorA() {
+        System.out.println("mayorA");
+        Operaciones instance = new Operaciones();
+        
+        int a = 8;
+        int b = 7;
+        int result = instance.mayor(a, b);
+        
+        int expResult = 8;        
+        assertEquals(expResult, result);
+        
+    }
     @Test
     public void testIgual() {
         System.out.println("mayorNegativo");
@@ -96,8 +108,7 @@ public class OperacionesTest {
         int result = instance.mayor(a, b);
         
         int expResult = 8;        
-        assertEquals(expResult, result);
-        
+        assertEquals(expResult, result);        
     }
 
     /**
